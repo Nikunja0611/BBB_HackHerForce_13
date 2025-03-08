@@ -12,7 +12,7 @@ import {
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-import { Tangent, Sparkles, Users, Award, Camera, Home } from "lucide-react";
+import { Tangent, Sparkles, Users, Award, Camera, Home, Trophy, Bot } from "lucide-react";
 
 const navItems = [
   { href: "/", label: "Home", icon: Home },
@@ -20,6 +20,8 @@ const navItems = [
   { href: "/try-on", label: "Try On", icon: Camera },
   { href: "/community", label: "Community", icon: Users },
   { href: "/wardrobe", label: "Wardrobe", icon: Award },
+  { href: "/gamification", label: "Gamification", icon: Trophy },
+  { href: "/ai_assistant", label: "AI Assistant", icon: Bot },
 ];
 
 export function Navbar() {
